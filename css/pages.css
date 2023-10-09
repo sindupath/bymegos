@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: #2980b9;
+    align-items: center;
+
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    
+}
+.return{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    text-decoration: none;
+    color: #2980b9;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.title{
+    font-size: 20px;
+    margin-left: 120px;
+    color: #ffffff;
+}
+.container{
+    display: block;
+    font-size: 16px;
+    color: #2980b9;
+
+
+}
+.container h2{
+    color: grey;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+}
+.container h4{
+    line-height: 30px;
+    text-decoration: solid;
+    margin: 30px;
+    text-transform: uppercase;
+}
+.container .gmail{
+    text-transform: lowercase;
+}
+.row{
+    
+    height: 1000px;
+    width: 50%;
+}
+.c-row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    min-height: fit-content;
+}
+.row .box{
+    background-color: rgb(47, 130, 113);
+    width: 100%;
+    height: auto;
+    margin: 5px;
+}
