@@ -98,6 +98,8 @@ footer{
    color:#3d3d3d;
    font-weight: 500;
 gap:10px;
+display: flex;
+flex-direction: column;
 
 }
 .dark-mode{
